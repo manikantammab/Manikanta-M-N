@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <center><h1>Employed Registration Form</h1></center><hr> 
+            <label>First Name:</label>
+            <input type="text" placeholder="firstname" size="10" required/><br><br>
+            <label>Middle Name:</label>
+            <input type="text" placeholder="middlename" size="10" required/><br><br>
+            <label>Last Name:</label>
+            <input type="text" placeholder="lastname" size="10" required/><br><br>
+        </div>
+        <label>Department:</label>
+        <div>
+            <select>
+                <option value="Course">Department</option>
+                <option value="BCA">Management</option>
+                <option value="BBA">Human Resource</option>
+                <option value="B.Tech">Customer support</option>
+                <option value="MBA">Development</option>
+                <option value="MCA">Business</option>
+                <option value="M.Tech">Corparate Finance</option>
+            </select>
+        </div><br>
+        <div>
+         <label>Gender:</label><br>      
+            <input type="radio" value="Male" name="gender" checked>Male<br>
+            <input type="radio" value="Female" name="gender" checked>Female<br>
+            <input type="radio" value="other" name="gender" checked>Other<br>
+        </div><br>
+        <label>Phone:</label>
+        <input type="text" name="country code" placeholder="country code" value="+91" size="2"/>
+        <input type="tel" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required><br><br>
+        Current Address:
+        <textarea cols="80" rows="5" placeholder="current address" value="address"></textarea><br><br>
+        <label for="myfile">Drop your Resume</label>
+          <input type="file" id="myfile"><br><br>
+          <label for="email">Email:</label>
+          <input type="text" placeholder="enter email" name="email" required><br><br>
+          <label for="Password">Password:</label>
+          <input type="text" placeholder="enter password" name="password" required><br><br>
+          <label for="re-type password">Re-type password:</label>
+          <input type="text" placeholder="retype password" name="psw-repeat" required><br><br>
+          <button type="submit" class="register">register</button>
+    </form>
+</body>
+</html>

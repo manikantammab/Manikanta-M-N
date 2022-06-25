@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tags</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="3" style="border-collapse: collapse;">
+        <!-- cellpadding inside the cell and cellspacing is spacing outside the cell -->
+        <tr>
+            <th>Serial no</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <th>1.</th>
+            <th>Mani</th>
+            <th>25</th>
+            <th>Male</th>
+            <th>87</th>
+        </tr>
+        <tr>
+            <th>2.</th>
+            <th>Nani</th>
+            <th>24</th>
+            <th>Male</th>
+            <th>90</th>
+        </tr>
+        <!-- colspan it can used to create different way tables -->
+    </table>
+    <table border="2">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+            <th colspan="4">Marks</th>
+        </tr>
+        <tr>
+            <th>First name</th>
+            <th>Last Name</th>
+            <th></th>
+            <th>Maths</th>
+            <th>English</th>
+            <th>Social</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Krishna</td>
+            <td>Raj</td>
+            <td>25</td>
+            <td>85</td>
+            <td>65</td>
+            <td>90</td>
+            <td>75</td>
+        </tr>
+    </table>
+    <table border="2">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th>First Name</th>
+            <td>Krishna</td>
+            <td>Mohan</td>
+            <td>subhu</td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td>Raj</td>
+            <td>Kumar</td>
+            <td>Garg</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <th></th>
+            <td>24</td>
+            <td>67</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <th rowspan="4">Marks</th>
+            <th>Maths</th>
+            <td>78</td>
+            <td>90</td>
+            <td>87</td>
+        </tr>
+    </table>
+</body>
+</html>
